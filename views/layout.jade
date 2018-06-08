@@ -1,0 +1,10 @@
+include ./_mixin
+
+doctype html
+html
+  head
+    title Wonder Chat
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+    +javascript_script_tag('bundle')
